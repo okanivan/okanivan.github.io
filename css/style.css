@@ -55,7 +55,7 @@ nav{
 .text-col{
 	 width:100%;
 	 position:absolute;
-	 top:38%;
+	 top:42%;
 	 left:10%;
    font-family: "OpenSans";
 }
@@ -127,7 +127,7 @@ button.us,button.More{
   cursor: pointer;
 }
     .FURNITURE{
-    font-size: 6em;
+    font-size:6em;
     margin-bottom: -1%;
     }     
 .footer{

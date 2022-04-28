@@ -211,6 +211,9 @@ button.Send {;
 .Trending {
     margin-left: -10%;
 }
+.ipsum{
+    font-size: 14px;
+}
 }
 @media screen and (max-width: 1254px) {
     .testi {
