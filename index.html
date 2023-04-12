@@ -1,212 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/adaptive.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 	<title>Page</title>
 </head>
 <body>
-	<section class="header">
+<section class="header img-fluid">
+	<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
 	<div class="container">
-    <nav>		
-		<ul id="demo-nav">
-        <img class="logo" src="img/logo.png">
-		<li><a href="">HOME</a></li>
-		<li><a href="">ABOUT</a></li>
-		<li><a href="">SHOP</a></li>
-		<li><a href="">FURNITURE</a></li>
-		<li><a href="">CONTACT US</a></li>
-        </ul>	
-        <div class="fa">
-        <i class="fa fa-user">LOGIN</i>
-		<i class="fas fa-search"></i>
-		<i class="fas fa-align-right"></i>
+		<div class="header__menu menu ">
+
+			<div class="menu__icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" class=" menu__link">Home</a></li>
+					<li class="menu__item"><a href="#" class=" menu__link">About</a></li>
+					<li class="menu__item"><a href="#" class=" menu__link">Shop</a></li>
+					<li class="menu__item"><a href="#" class=" menu__link">Furniture</a></li>
+					<li class="menu__item"><a href="#" class=" menu__link">Contact us</a></li>
+					<div class="dropdown">
+						<i class="fa-solid fa-user-plus">LOGIN</i>
+						<i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+					</div>
+				</ul>
+			</nav>
+		</div>
+		<div class="container my-5 py-5">
+			<div class="row align-items-center g-5">
+				<div class="col-lg-6 text-center text-lg-start">
+					<h2 class="display-3 text-success lideInLeft">The Latest</h2>
+					<h3 class="display-3  slideInLeft ">Furniture</h3>
+					<p class=" slideInLeft mb-4 pb-2">Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed <br>
+						do eiusmod tempor incididunt ut labore.</p>
+					<a href="" class="btn btn-success py-sm-10 px-sm-4 me-3 animated slideInLeft">READ MORE</a>
+					<a href="" class="btn btn-dark py-sm-10 px-sm-4 me-3 animated slideInLeft">CONTACT US</a>
+				</div>
+			</div>
+		</div>
 	</div>
-</nav>
-</div>
-</div>
 </section>
 <main>
-	<div class="container">
-		<div class="text-col">
-  	<p class="THELATEST">THE LATEST</p>
-		                <p class="FURNITURE">FURNITURE</p>
-		                <p class="ipsum">Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed <br>
-         do eiusmod tempor incididunt ut labore.
-        </p>
- <button class="Read">READ MORE</button>
-         <button class="us">CONTACT US</button>
-        <div class="slider middle">
-        	
-        	<div class="slides">
-
-        		<input type="radio" name="r" id="r1" checked>
-        		<input type="radio" name="r" id="r2">
-        		<input type="radio" name="r" id="r3">
-        		<input type="radio" name="r" id="r4">
-                 
-
-        	</div>
-        	<div class="navigation">
-        		<label for="r1" class="bar"></label>
-        	    <label for="r2" class="bar"></label>
-        		<label for="r3" class="bar"></label>
-        		<label for="r4" class="bar"></label>
-        	</div>
-
-        </div>
-    </div>
-    <div class="container">
-    	<div class="About ">
-	        <div class="title">	
-        <span><p>About Us</p></span>
-	    </div> 
-	    <p class="Lorem">Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut<br>enim ad minim veniam</p>
-	     	<button>Read More</button>
-	     	<img src="img/about.png">
-	     </div>
-	 </div>
-<div class="container">
-	 <div class="Trending">
-	 <div class="Trending-title">
-<span><p>Trending Categories</p></span>
-</div>	
-<div class="row">
-	<p style="color:rgb(36, 210, 120);">01</p>
-	<div class="line">
-	<p style="color:rgb(36, 210, 120);">Chairs</p>
+	<div class="about">
+		<div class="container">
+			<div class="about-title">
+				<span><h3>About Us</h3></span>
+			</div>
+			<p class="slideInLeft mb-4 pb-2">Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut<br>enim ad minim veniam</p>
+			<a href="" class="btn btn-dark py-sm-10 px-sm-4 me-3 animated slideInLeft">Read More</a>
+			<img class="about-icon img-fluid " src="img/about-icon.png" alt="about-icon">
 		</div>
-</div>
-	<div class="row">
-	<p style="color:rgb(36, 210, 120);">02</p>
-	<div class="line">
-		<p>Tables</p>
-</div>
-</div>	
-<div class="row">
-	<p style="color:rgb(36, 210, 120);">03</p>
-	<div class="line">
-<p>Bads</p>		
-</div>
-</div>
-<div class="row">
-	<p style="color:rgb(36, 210, 120);">04</p>
-	<div class="line">
-		<p>Furnitures</p>
-</div>
-</div>
-	<img src="img/trending.png">
 	</div>
-</div>
-<div class="container">
-	<div class="Latest-Collection">
-<p class="Collection">The Latest Collection</p>
-	<p class="DISCOUNT">50% DISCOUNT</p>
-	<button>Buy Now</button>
-	<img src="img/the letest.png">
-</div>
-</div>
-<div class="container">
-<div class="Featored">
-<div class="title-Brands">
-	<span><p>Featored Brands</p></span>
-</div>
-<div class="Chairs">
-<a href="#" class="btn"></a>
-<a href="#" class="btn"></a>
-<a href="#" class="btn"></a>
-<a href="#" class="btn"></a>
-</div>
-<button>See More</button>
-</div>
-</div>
-<div class="container">
-	<div class="title-us">
-		<span><p>Contact Us</p></span></div>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5076.65343207213!2d30.4691617!3d50.4908768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd8d6efb0a57%3A0x6a159ab3440c5d73!2sOkko!5e0!3m2!1sru!2sua!4v1640618758985!5m2!1sru!2sua" width="500" height="285" style="border:0;"></iframe>
-<div class="Coment-box">
-<form class="Coment-form">
-<input type="text" placeholder="Name">
-<input type="email" placeholder="Email">
-<input type="tel" placeholder="Phone">
-<textarea rows="3" placeholder="Message">
-</textarea>
-</div>
-<button class="Send">SEND</button>
-</form>
-</div>
-<div class="title-testi">
-<span><p>Testimonial</p></span></div>	
-<section class="Testimonial">
-<div class="testi">
-<div class="Testimonial-col">
-<img src="img/magna.png">
-<h1>Magna</h1>
-<h3>Consectetur adipscing</h3>
-<p>Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut<br>enim ad minim veniam,quis nostrudLorem ipsum </p><i class="fa fa-arrow-left" aria-hidden="true"></i>
-</div>
-</div>
-<div class="testi">
-<div class="Testimonial-col">
-<img src="img/aliqua.png" >
-<h1>Aliqua</h1>
-<h3>Consectetur adipscing</h3>
-<p>Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut<br>enim ad minim veniam,quis nostrudLorem ipsum </p><i class="fa fa-arrow-left" aria-hidden="true"></i>
-</div>
-</div>
-</div>
-</section>
+	<div class="trending">
+		<div class="container">
+			<div class="trending-title">
+				<span><h3>Trending Categories</h3></span>
+			</div>
+			<div class="trending-number">
+				<span class="number">01</span><hr class="line"><a>Chair</a>
+			</div>
+			<div class="trending-number">
+				<span class="number">02</span><hr class="line">Tables
+			</div>
+			<div class="trending-number">
+				<span class="number">03</span><hr class="line">Beds
+			</div>
+			<div class="trending-number">
+				<span class="number">04</span><hr class="line">Furniture
+			</div>
+			<img class="img-fluid trending-icon" src="img/trending-icon.png" alt="trending-icon">
+		</div>
+	</div>
+	<div class="latest-collection">
+		<div class="container">
+			<h2 class="display-3  text-center slideInLeft">The Latest Collection</h2>
+			<h3 class="display-3 text-success slideInLeft">50% DISCOUNT</h3>
+			<a class="btn btn-dark">Buy Now</a>
+			<img class="img-fluid" src="img/latest-icon.jpg" alt="latest">
+		</div>
+	</div>
+	<div class="featured">
+		<div class="container">
+			<div class="featured-brands-title">
+				<span><h3>Featured Brands</h3></span>
+			</div>
+			<div class="chairs">
+				<a href="#" class="click"></a>
+				<a href="#" class="click"></a>
+				<a href="#" class="click"></a>
+				<a href="#" class="click"></a>
+			</div>
+			<a class="btn btn-dark animated slideInLeft">See More</a>
+		</div>
+	</div>
+	<div class="contact-us">
+		<div class="container">
+			<div class="contact-title">
+				<span><h3>Contact Us</h3></span>
+			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5076.65343207213!2d30.4691617!3d50.4908768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd8d6efb0a57%3A0x6a159ab3440c5d73!2sOkko!5e0!3m2!1sru!2sua!4v1640618758985!5m2!1sru!2sua" width="200" height="285" style="border:0;"></iframe>
+			<div class="comment-box">
+				<form class="comment-form">
+					<label>
+						<input type="text" placeholder="Name">
+					</label>
+					<label>
+						<input type="email" placeholder="Email">
+					</label>
+					<label>
+						<input type="tel" placeholder="Phone">
+					</label>
+					<label>
+						<textarea rows="3" placeholder="Message"></textarea>
+					</label>
+				</form>
+				<a class="btn btn-success animated slideInLeft" style="width:100px; height:38px; margin-top:20px; ">SEND</a>
+			</div>
+		</div>
+	</div>
+	<div class="testimonial-title">
+		<span><h3>Testimonial</h3></span>
+	</div>
+	<div class="container">
+		<div class="testimonial">
+			<div class="testimonial-col">
+				<img src="img/magna-icon.png"  alt="manga">
+				<h1>Magna</h1>
+				<h3>Consectetur adipscing</h3>
+				<p>Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut<br>enim ad minim veniam,quis nostrudLorem ipsum </p><i class="fa fa-arrow-left" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="testimonial">
+			<div class="testimonial-col">
+				<img src="img/aliqua-icon.png" alt="aliqua" >
+				<h1>Aliqua</h1>
+				<h3>Consectetur adipscing</h3>
+				<p>Lorem ipsum dolor sit amnet, consectetur adiplscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut<br>enim ad minim veniam,quis nostrudLorem ipsum </p><i class="fa fa-arrow-left" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
 </main>
-<footer class="footer">
-	<h1 class="DIGITF"><span>DIGITF</span></h1>
-<div class="container">
-	<div class="rowr">
-		<div class="footer-col">   
-<h4>About Shop</h4>
-			<ul>
-				<li><a href="#">Address</a></li>
-				<li><a href="#">+01 1234567890</a></li>
-				<li><a href="#">demo@gmail.com</a></li>
+<section class="footer">
+	<h1 class="footer-title"><span>DIGITF</span></h1>
+	<div class="container">
+		<div class="footer-row">
+			<div class="footer-col">
+				<h4>About Shop</h4>
+				<ul>
+					<li><a href="#">Address</a></li>
+					<li><a href="#">+01 1234567890</a></li>
+					<li><a href="#">demo@gmail.com</a></li>
 
-</ul>		
-</div>
-<div class="footer-col">
-	<h4>Indormation</h4>
-	<ul>
-		<li><a href="">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</a></li>
-	</ul>
-</div>
-<div class="footer-col">
-<h4>Instagram</h4>
-	<ul>
-	<li><img src="img/inst.png"></li>	
-</ul>
-</div>
-<div class="footer-col">
-	<h4>Newsletter</h4>
-	<form action="#">
-			<input type="text" placeholder="Enter you email" reqired></form>
-			<button>SUBSCRIBE</button>
-	<div class="social-links">
-	<a href="#"><i class="fab fa-facebook-f"></i></a>
-	<a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i>
-	</a>
-	<a href="#"><i class="fab fa-youtube"></i></a>				
-</div>
-</div>
-</div>
-<p>Make a changes from name1223 branch</p>
-</div>
-<div class="AllRightsText">
-© 2019 All Rights Reserved. Free html Templates
-</div>
-</footer>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>Information</h4>
+				<ul>
+					<li><a href="">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>Instagram</h4>
+				<ul>
+					<li><img src="img/instagram-icon.png" alt="inst"></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>Newsletter</h4>
+				<form action="#">
+					<label>
+						<input type="text" placeholder="Enter you email" required>
+					</label>
+
+					<a class="btn btn-success animated slideInLeft" style="margin: 20px 0 20px 0; border-radius: 0; ">SUBSCRIBE</a>
+				</form>
+				<div class="social-links">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		© 2019 All Rights Reserved. Free html Templates
+	</footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
