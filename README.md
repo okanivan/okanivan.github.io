@@ -1,1 +1,1 @@
-# https://okanivan.github.io/
+https://okanivan.github.io/
